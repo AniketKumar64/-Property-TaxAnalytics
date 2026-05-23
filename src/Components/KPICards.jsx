@@ -182,9 +182,6 @@ export default function KPICards({ filteredData }) {
 
   return (
     <motion.div
-      variants={containerVariants}
-      initial="hidden"
-      animate="show"
       className="
         grid
         grid-cols-2
